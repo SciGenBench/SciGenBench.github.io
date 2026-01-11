@@ -255,10 +255,16 @@ While synthetic data has proven effective for improving scientific reasoning in 
           </div>
 
           <div class="table-container" style="margin-top: 1rem;">
+            <style>
+              .table-container table tbody td:first-child,
+              .table-container table thead th:first-child {
+                text-align: left !important;
+              }
+            </style>
             <table class="table is-striped is-hoverable is-fullwidth is-size-8">
               <thead>
                 <tr>
-                  <th>Model</th>
+                  <th style="text-align: left;">Model</th>
                   <th>R<sub>inv</sub> ↑</th>
                   <th>C&amp;F</th>
                   <th>L&amp;P</th>
@@ -298,10 +304,10 @@ While synthetic data has proven effective for improving scientific reasoning in 
                   <td>GPT-Image-1.5</td><td>63.52</td><td>0.98</td><td>1.70</td><td><b>1.97</b></td><td>1.17</td><td>1.62</td><td><b>14.79</b></td><td><b>0.88</b></td><td>25.16</td><td>112.52</td>
                 </tr>
                 <tr>
-                  <td><b>Nanobanana-Pro</b></td><td><b>73.41</b></td><td>1.59</td><td>1.87</td><td><b>1.98</b></td><td>1.72</td><td><b>1.93</b></td><td>12.02</td><td>0.81</td><td>25.01</td><td>87.72</td>
+                  <td>Nanobanana-Pro</td><td><b>73.41</b></td><td>1.59</td><td>1.87</td><td><b>1.98</b></td><td>1.72</td><td><b>1.93</b></td><td>12.02</td><td>0.81</td><td>25.01</td><td>87.72</td>
                 </tr>
         
-                <tr><td colspan="11"><b>ImgCoder (Logic-Driven)</b></td></tr>
+                <tr><td colspan="11"><b>ImgCoder</b></td></tr>
                 <tr>
                   <td>Qwen3-ImgCoder</td><td>56.38</td><td>1.21</td><td>1.30</td><td>1.62</td><td>1.39</td><td>1.29</td><td>14.71</td><td>0.86</td><td><b>25.21</b></td><td>121.55</td>
                 </tr>
@@ -309,14 +315,14 @@ While synthetic data has proven effective for improving scientific reasoning in 
                   <td>Gemini-3-Flash-ImgCoder</td><td>76.93</td><td>1.80</td><td>1.88</td><td>1.88</td><td>1.92</td><td>1.91</td><td>14.63</td><td>0.85</td><td>25.18</td><td>117.83</td>
                 </tr>
                 <tr>
-                  <td><b>Gemini-3-Pro-ImgCoder</b></td><td><b>77.87</b></td><td><b>1.82</b></td><td><b>1.93</b></td><td>1.91</td><td><b>1.93</b></td><td>1.90</td><td>14.59</td><td>0.86</td><td>25.16</td><td>107.67</td>
+                  <td>Gemini-3-Pro-ImgCoder</td><td><b>77.87</b></td><td><b>1.82</b></td><td><b>1.93</b></td><td>1.91</td><td><b>1.93</b></td><td>1.90</td><td>14.59</td><td>0.86</td><td>25.16</td><td>107.67</td>
                 </tr>
               </tbody>
             </table>
           </div>
         
           <div class="level-set has-text-justified" style="margin-top: 0.75rem;">
-            <p class="is-size-7">
+            <p class="is-size-8">
               <b>Judge dimensions:</b> C&amp;F = Correctness &amp; Fidelity, L&amp;P = Layout &amp; Precision, R&amp;O = Readability &amp; Occlusion,
               SP = Scientific Plausibility, E&amp;R = Expressiveness &amp; Richness.
             </p>
