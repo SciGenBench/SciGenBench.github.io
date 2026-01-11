@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Robot body -->
+  <rect x="20" y="30" width="60" height="50" rx="8" fill="#2563eb" opacity="0.95"/>
+  <rect x="25" y="35" width="50" height="40" rx="5" fill="#ffffff"/>
+  
+  <!-- Robot head -->
+  <rect x="30" y="10" width="40" height="25" rx="6" fill="#2563eb" opacity="0.95"/>
+  <rect x="35" y="15" width="30" height="15" rx="3" fill="#ffffff"/>
+  
+  <!-- Eyes -->
+  <circle cx="42" cy="22" r="3" fill="#2563eb"/>
+  <circle cx="58" cy="22" r="3" fill="#2563eb"/>
+  
+  <!-- Antenna -->
+  <line x1="50" y1="10" x2="50" y2="5" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="50" cy="5" r="2" fill="#2563eb"/>
+  
+  <!-- Control panel (chest) -->
+  <rect x="40" y="45" width="20" height="15" rx="2" fill="#2563eb" opacity="0.3"/>
+  <line x1="45" y1="50" x2="55" y2="50" stroke="#2563eb" stroke-width="1"/>
+  <line x1="45" y1="55" x2="55" y2="55" stroke="#2563eb" stroke-width="1"/>
+  
+  <!-- Arms -->
+  <rect x="10" y="40" width="12" height="20" rx="6" fill="#2563eb" opacity="0.95"/>
+  <rect x="78" y="40" width="12" height="20" rx="6" fill="#2563eb" opacity="0.95"/>
+  
+  <!-- Legs -->
+  <rect x="30" y="80" width="15" height="15" rx="4" fill="#2563eb" opacity="0.95"/>
+  <rect x="55" y="80" width="15" height="15" rx="4" fill="#2563eb" opacity="0.95"/>
+</svg>
+
